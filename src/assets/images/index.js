@@ -21,10 +21,39 @@ import thumbnailShoe1 from './thumbnail-shoe1.svg'
 import thumbnailShoe2 from './thumbnail-shoe2.svg'
 import thumbnailShoe3 from './thumbnail-shoe3.svg'
 
+
+import hero1 from './hero1.png'
+import hero2 from './hero2.png'
+import hero3 from './hero3.png'
+import hero4 from './hero5.png'
+
+
+import heel1 from './heel1.png'
+import heel2 from './heel2.png'
+import high1 from './high1.png'
+// import high2 from './high2.png'
+import kito from './kito.png'
+import suit from './suit.png'
+import low from './low2.png'
 export {
+    heel1,
+    heel2,
+    high1,
+    // high2,
+    kito,
+    suit,
+    low,
+
+
+
     bigShoe1,
     bigShoe2,
     bigShoe3,
+
+    hero1,
+    hero2, 
+    hero3, 
+    hero4,
 
     customer1,
     customer2,

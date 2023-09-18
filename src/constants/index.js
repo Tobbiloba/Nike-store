@@ -1,5 +1,11 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
+import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3, hero1, hero2, hero3, hero4, heel1,
+    heel2,
+    high1,
+    
+    kito,
+    suit,
+    low, } from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
@@ -10,16 +16,20 @@ export const navLinks = [
 
 export const shoes = [
     {
-        thumbnail: thumbnailShoe1,
-        bigShoe: bigShoe1,
+        thumbnail: hero1,
+        bigShoe: hero1,
     },
     {
-        thumbnail: thumbnailShoe2,
-        bigShoe: bigShoe2,
+        thumbnail: hero2,
+        bigShoe: hero2,
     },
+    // {
+    //     thumbnail: hero3,
+    //     bigShoe: hero3,
+    // },
     {
-        thumbnail: thumbnailShoe3,
-        bigShoe: bigShoe3,
+        thumbnail: hero4,
+        bigShoe: hero4,
     },
 ];
 
@@ -34,21 +44,43 @@ export const products = [
         imgURL: shoe4,
         name: "Nike Air Jordan-01",
         price: "$200.20",
+        color: 'bg-red-500',
+        description: 'Lorem ipsum dolor'
     },
     {
         imgURL: shoe5,
         name: "Nike Air Jordan-10",
         price: "$210.20",
+        color: 'bg-blue-300',
+        description: 'Lorem ipsum dolor'
     },
     {
         imgURL: shoe6,
         name: "Nike Air Jordan-100",
         price: "$220.20",
+        color: 'bg-slate-300',
+        description: 'Lorem ipsum dolor'
     },
     {
         imgURL: shoe7,
         name: "Nike Air Jordan-001",
         price: "$230.20",
+        color: 'bg-orange-500',
+        description: 'Lorem ipsum dolor'
+    },
+    {
+        imgURL: shoe4,
+        name: "Nike Air Jordan 01",
+        price: "$200.20",
+        color: 'bg-red-500',
+        description: 'Lorem ipsum dolor'
+    },
+    {
+        imgURL: shoe5,
+        name: "Nike Air Jordan 10",
+        price: "$210.20",
+        color: 'bg-blue-300',
+        description: 'Lorem ipsum dolor'
     },
 ];
 
@@ -122,3 +154,36 @@ export const socialMedia = [
     { src: twitter, alt: "twitter logo" },
     { src: instagram, alt: "instagram logo" },
 ];
+
+
+export const categories = [
+    
+        {
+            src: heel1,
+            color: 'bg-slate-200'
+        },
+        {
+            src: heel2,
+            color: 'bg-green-200'
+        },
+        {
+            src: high1,
+            color: 'bg-neutral-200'
+        },
+        // {
+        //     src: high2
+        // },
+        {
+            src: low,
+            color: 'bg-blue-200'
+        },
+        {
+            src: suit,
+            color: 'bg-red-200'
+        },
+        {
+            src: kito,
+            color: 'bg-orange-500'
+        },
+    
+]
